@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gupta Speed Delivery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            animation: gradient 5s infinite alternate;
+            transition: background 2s ease;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+        .about, .contact, .services {
+            min-height: 200px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        .team {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .team-member {
+            padding: 20px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        @keyframes gradient {
+            from {
+                background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            }
+            to {
+                background: linear-gradient(to right, #ACB6E5, #74ebd5);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Gupta Speed Delivery
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section class="about section" id="about">
+    <h2>About Us</h2>
+    <p>We are super fast and friendly to your budget!</p>
+</section>
+
+<section class="services section" id="services">
+    <h2>Our Services</h2>
+    <p>We offer lightning-fast delivery services at competitive prices. Trust us with your urgent deliveries.</p>
+</section>
+
+<section class="team section" id="team">
+    <h2>Meet Our Team</h2>
+    <div class="team">
+        <div class="team-member">
+            <h3>Advik Gupta</h3>
+            <p>CEO</p>
+        </div>
+        <div class="team-member">
+            <h3>Manish Gupta</h3>
+            <p>CFO & Sales Head</p>
+        </div>
+        <div class="team-member">
+            <h3>Shilpi Gupta</h3>
+            <p>CMD & Finance Expert</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <p>Customer Care: 9810253726</p>
+    </div>
+</section>
+
+<footer>
+    &copy; 2024 Gupta Speed Delivery
+</footer>
+
+</body>
+</html>
